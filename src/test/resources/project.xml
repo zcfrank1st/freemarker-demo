@@ -1,0 +1,24 @@
+<ROOT>
+	<PROJECT>semantics</PROJECT>
+	<FRAMEWORK>jsf</FRAMEWORK>
+	<DATASOURCE>
+		<NAME>hbase</NAME>
+		<CONFIG1></CONFIG1>
+		<CONFIG2></CONFIG2>
+	</DATASOURCE>
+	<BEANS>
+		<Father>
+			<id type="int"/>
+			<name type="List[String]"/>
+		</Father>
+		<Son>
+			<id type="int"/>
+		</Son>
+	</BEANS>
+	<INPUT>
+		<Father type="obj"/>
+	</INPUT>
+	<OUTPUT>
+		<id type="int"/>
+	</OUTPUT>
+</ROOT>

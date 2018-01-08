@@ -6,6 +6,6 @@ import java.io.IOException;
 
 public class Test {
     public static void main(String[] args) throws DocumentException, IOException, TemplateException {
-        new Parser().parse("/Users/zcfrank1st/Desktop/project.xml");
+        new Parser().parse(Test.class.getResource("project.xml").getPath());
     }
 }
